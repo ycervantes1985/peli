@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  margin: 5% auto;
+  padding: 5%;
+  width: 1000px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form button {
+  margin-top: 5%;
+}
+
+table {
+  margin: 5% auto;
+  width: 80%!important;
+}
+
+.action-btn {
+  margin: 2%;
+}
+
+
+.nav-container{
+  background-color: #40b182;
+  /* background-color: #0184D6; */
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.logo p{
+font-family: fantasy;
+font-size: 25px;
+color: aliceblue;
+margin-top: 10px;
+
+}
+
+.remove-bg{
+filter:brightness(1.1);
+mix-blend-mode: multiply;
+height: 75px;
+width: 75px;
+}
+
+h2{
+  color: white;
+  margin-top: 50px;
+}
+.viajes-container{
+
+  margin-top: 50px;
+
+
+}
+.btn-color{
+  color:white;
+  text-decoration: none;
+}
+
+.list-container{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+
+}
+
+.link-container{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  align-items: center;
+}
+
+.link-container:hover{
+  color: #57D0D8;
+  font-weight: 600;
+}
+
+
+.nav-link{
+  color: white;
+}
+
+.form-group{
+  margin-top: 12px;
+}
